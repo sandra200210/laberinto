@@ -1,0 +1,64 @@
+body{
+    align-items: center;
+}
+#contenedor{
+    width: 720px;
+    height: 720px;
+   display: grid;
+   grid-template-rows: repeat(15, 1fr);
+   grid-template-columns: repeat(15,1fr);
+}
+.paredarriba{
+    width: auto;
+    height: auto; 
+    background-image: url("IMG/ParedMazmorra.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredabajo{
+    width: auto;
+    height: auto; 
+    background-image: url("IMG/ParedMazmorraAbajo.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredlateralizq{
+    width: auto;
+    height: auto; 
+    background-image: url("IMG/ParedMazmorraLateralIzquierda.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredlateraldech{
+    width: auto;
+    height: auto; 
+    background-image: url("IMG/ParedMazmorraLateralDerecha.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.esquina{
+    width: auto;
+    height: auto; 
+    background-image: url("Esquinan.jpg");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.suelo{
+    width: auto;
+    height: auto;
+    background-image: url("IMG/SueloMazmorra.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    /* background-color: blue; */
+    
+}
