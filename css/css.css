@@ -11,7 +11,7 @@ body{
 .paredarriba{
     width: auto;
     height: auto; 
-    background-image: url("IMG/ParedMazmorra.png");
+    background-image: url("../IMG/ParedMazmorra.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -20,7 +20,7 @@ body{
 .paredabajo{
     width: auto;
     height: auto; 
-    background-image: url("IMG/ParedMazmorraAbajo.png");
+    background-image: url("../IMG/ParedMazmorraAbajo.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -29,7 +29,7 @@ body{
 .paredlateralizq{
     width: auto;
     height: auto; 
-    background-image: url("IMG/ParedMazmorraLateralIzquierda.png");
+    background-image: url("../IMG/ParedMazmorraLateralIzquierda.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -38,7 +38,7 @@ body{
 .paredlateraldech{
     width: auto;
     height: auto; 
-    background-image: url("IMG/ParedMazmorraLateralDerecha.png");
+    background-image: url("../IMG/ParedMazmorraLateralDerecha.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -47,7 +47,7 @@ body{
 .esquina{
     width: auto;
     height: auto; 
-    background-image: url("Esquinan.png");
+    background-image: url("../IMG/esquina.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -56,7 +56,7 @@ body{
 .suelo{
     width: auto;
     height: auto;
-    background-image: url("IMG/SueloMazmorra.png");
+    background-image: url("../IMG/SueloMazmorra.png");
     background-repeat:no-repeat;
     background-size: 100%;
     /* background-color: blue; */
