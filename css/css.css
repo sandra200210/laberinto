@@ -31,13 +31,11 @@ header{
 /* LATERALES */
 aside{
     width: 15%;
-    margin:5%;
-}
-#aside1{
+    margin:4%;
     background-image: url('../IMG/fondos/aside.png');
-}
-#aside2{
-    width: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
