@@ -1,9 +1,59 @@
 body{
+    background-color: #30686bff;
+}
+img{
+    width:100%;
+
+}
+a{
+    text-decoration: none;
+}
+
+/* CABECERA */
+header{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+#perfil{
+    height: 30px;
+}
+
+/* CONTENEDOR DE PAFINA MENOS CABECERA */
+#asar{
+    display: flex;
+    width:100%;
+}
+
+
+/* LATERALES */
+aside{
+    width: 15%;
+    margin:5%;
+}/*
+#aside1{
+    width: 15%;
+    margin:5%;
+}
+#aside2{
+    width: 15%;
+}*/
+
+
+/* CONTENEDOR DE MAPA CON PIE */
+article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
+
+
+/* MAPA */
 #contenedor{
-    width: 720px;
-    height: 720px;
+    width: 520px;
+    height: 520px;
    display: grid;
    grid-template-rows: repeat(15, 1fr);
    grid-template-columns: repeat(15,1fr);
@@ -11,7 +61,7 @@ body{
 .paredarriba{
     width: auto;
     height: auto; 
-    background-image: url("../IMG/ParedMazmorra.png");
+    background-image: url("../IMG/Mapa/ParedMazmorra.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -20,7 +70,7 @@ body{
 .paredabajo{
     width: auto;
     height: auto; 
-    background-image: url("../IMG/ParedMazmorraAbajo.png");
+    background-image: url("..//IMG/Mapa/ParedMazmorraAbajo.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -29,7 +79,7 @@ body{
 .paredlateralizq{
     width: auto;
     height: auto; 
-    background-image: url("../IMG/ParedMazmorraLateralIzquierda.png");
+    background-image: url("../IMG/Mapa/ParedMazmorraLateralIzquierda.png");
     background-repeat:round;
     background-size:100%;
     /* background-color: red; */
@@ -38,25 +88,71 @@ body{
 .paredlateraldech{
     width: auto;
     height: auto; 
-    background-image: url("../IMG/ParedMazmorraLateralDerecha.png");
+    background-image: url("../IMG/Mapa/ParedMazmorraLateralDerecha.png");
     background-repeat:round;
     background-size:100%;
+
     /* background-color: red; */
     
+}
+.paredab{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr1.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredde{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr2.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredar{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr3.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.parediz{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr4.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredam{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr5.png");
+    background-repeat:round;
+    background-size:100%;
+
 }
 .esquina{
     width: auto;
     height: auto; 
-   background-color: black;
-    /* background-color: red; */
+    background-color: black; 
     
 }
 .suelo{
     width: auto;
     height: auto;
-    background-image: url("../IMG/SueloMazmorra.png");
+    background-image: url("../IMG/Mapa/SueloMazmorra.png");
     background-repeat:no-repeat;
     background-size: 100%;
     /* background-color: blue; */
     
+}
+
+/* FOOTER */
+footer{
+    width: 50%;
+    height: 200px;
 }
