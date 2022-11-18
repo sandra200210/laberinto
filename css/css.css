@@ -1,5 +1,5 @@
 body{
-    background-color: #30686bff;
+    background-color: #3f306b;
 }
 img{
     width:100%;
@@ -32,10 +32,11 @@ header{
 aside{
     width: 15%;
     margin:4%;
-    background-image: url('../IMG/fondos/aside.png');
+    /*background-image: url('../IMG/fondos/aside.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
+    background-color: #497e8f;
 }
 
 
