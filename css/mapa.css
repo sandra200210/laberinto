@@ -1,0 +1,150 @@
+/* MAPA */
+#contenedor{
+    width: 520px;
+    height: 520px;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-columns: repeat(15,1fr);
+}
+.paredarriba{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/ParedMazmorra.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredabajo{
+    width: auto;
+    height: auto; 
+    background-image: url("..//IMG/Mapa/ParedMazmorraAbajo.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredlateralizq{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/ParedMazmorraLateralIzquierda.png");
+    background-repeat:round;
+    background-size:100%;
+    /* background-color: red; */
+    
+}
+.paredlateraldech{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/ParedMazmorraLateralDerecha.png");
+    background-repeat:round;
+    background-size:100%;
+
+    /* background-color: red; */
+    
+}
+.paredab{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr1.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredde{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr2.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredar{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr3.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.parediz{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr4.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.paredam{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Mapa/Paredr5.png");
+    background-repeat:round;
+    background-size:100%;
+
+}
+.esquina{
+    width: auto;
+    height: auto; 
+    background-color: black; 
+    
+}
+.suelo{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/SueloMazmorra.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    /* background-color: blue; */
+    
+}
+
+/*Paredes Interior*/
+.p1{
+
+}
+.p2{
+
+}
+.p3{
+
+}
+.p4{
+
+}
+.p5{
+
+}
+.p6{
+
+}
+.p7{
+
+}
+.p8{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
+.p1{
+
+}
