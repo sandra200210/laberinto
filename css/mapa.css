@@ -12,7 +12,6 @@
     background-image: url("../IMG/Mapa/ParedMazmorra.png");
     background-repeat:round;
     background-size:100%;
-    /* background-color: red; */
     
 }
 .paredabajo{
@@ -21,7 +20,6 @@
     background-image: url("..//IMG/Mapa/ParedMazmorraAbajo.png");
     background-repeat:round;
     background-size:100%;
-    /* background-color: red; */
     
 }
 .paredlateralizq{
@@ -30,7 +28,6 @@
     background-image: url("../IMG/Mapa/ParedMazmorraLateralIzquierda.png");
     background-repeat:round;
     background-size:100%;
-    /* background-color: red; */
     
 }
 .paredlateraldech{
@@ -40,7 +37,6 @@
     background-repeat:round;
     background-size:100%;
 
-    /* background-color: red; */
     
 }
 .paredab{
@@ -101,50 +97,133 @@
 
 /*Paredes Interior*/
 .p1{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr1.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p2{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr2.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p3{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr3.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p4{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr4.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p5{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr5.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p6{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr6.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p7{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr7.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
 .p8{
-
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr8.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
+    background-position:right;
 }
-.p1{
-
+.p9{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr9.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
+    background-position:bottom;
 }
-.p1{
-
+.p10{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr10.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
-.p1{
-
+.p11{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr11.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: right;
 }
-.p1{
-
+.p12{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr12.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
+    background-position: bottom;
 }
-.p1{
-
+.p13{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr13.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
-.p1{
-
+.p14{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr14.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
-.p1{
-
+.p15{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr15.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
-.p1{
-
+.p16{
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Mapa/ParedIn/Paredr16.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size:cover;
 }
