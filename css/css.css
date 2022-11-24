@@ -14,11 +14,14 @@ header{
     width:100%;
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    height: 150px;
 }
 #perfil{
     width: 100px;
     height: 100px;
+}
+figure{
+    
 }
 
 /* CONTENEDOR DE PAFINA MENOS CABECERA */
@@ -31,15 +34,19 @@ header{
 
 /* LATERALES */
 aside{
-    width: 15%;
+    width: 25%;
     margin:2%;
     /* background-image: url('../IMG/fondos/aside.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
-    background-color: #497e8f;
+    background-color: #102325;
 }
 
+/* aside2 */
+#aside2 h2{
+    align-self: center;
+}
 
 /* CONTENEDOR DE MAPA CON PIE */
 article{
@@ -60,9 +67,12 @@ iframe{
 
 /* FOOTER */
 footer{
-    width: 50%;
+    width: auto;
     height: 100px;
     display: flex;
     align-items: center;
-    
+    background-color: #63398f;
+}
+.footerIC img{
+    width: 50px;
 }
