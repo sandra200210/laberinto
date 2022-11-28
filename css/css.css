@@ -12,21 +12,24 @@ a{
 /* CABECERA */
 header{
     width:100%;
-    display: flex;
-    justify-content: space-around;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: aliceblue;
 }
 #perfil{
     width: 100px;
     height: 100px;
+    text-align: center;
 }
-#logo{
-
+#logo {
+    width: 8%;
 }
 
 /* CONTENEDOR DE PAFINA MENOS CABECERA */
 #asar{
+    margin-top: 10px;
     display: flex;
     width:100%;
     height: 800px;
@@ -37,17 +40,15 @@ header{
 aside{
     width: 25%;
     margin:2%;
-    /* background-image: url('../IMG/fondos/aside.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
     background-color: #426630;
+    text-align: center;
 }
+aside img{width: 100%;}
 
 /* aside2 */
-#aside2 h2{
-    align-self: center;
+#aside2{
 }
+
 
 /* CONTENEDOR DE MAPA CON PIE */
 article{
@@ -69,20 +70,31 @@ iframe{
 /* FOOTER */
 footer{
     width: auto;
-    height: 150px;
+    padding: 10px;/* 
     display: flex;
-    align-items: center;
-    background-color: #6b3068;
+    flex-direction: column;
+    align-items: center; */
+    /* background-color: #6b3068; */
     /* background-color: #426630; */
-    /* background-color: #30686bff; */
+    background-color: #30686bff;
     margin-top: 50px;
 }
-.footerIC img{
-    width: 65px;
-}
 #cc{
-    
+    width: 20%;
 }
 #cc img{
-    width: 55%;
+    width: 100%;
 }
+.find{
+    display: flex;
+
+}
+.find img{width: 100%;}
+.footerIC{margin: 5px;}
+#refe{
+    padding: 20px;
+    border-radius: 50%;
+    border: #30686bff groove;
+    background-color: #6b3068;
+}
+#refe a{color: white;}
