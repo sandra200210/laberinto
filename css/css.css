@@ -15,13 +15,14 @@ header{
     display: flex;
     justify-content: space-around;
     height: 150px;
+    color: aliceblue;
 }
 #perfil{
     width: 100px;
     height: 100px;
 }
-figure{
-    
+#logo{
+
 }
 
 /* CONTENEDOR DE PAFINA MENOS CABECERA */
@@ -40,7 +41,7 @@ aside{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; */
-    background-color: #102325;
+    background-color: #426630;
 }
 
 /* aside2 */
@@ -68,11 +69,20 @@ iframe{
 /* FOOTER */
 footer{
     width: auto;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
-    background-color: #63398f;
+    background-color: #6b3068;
+    /* background-color: #426630; */
+    /* background-color: #30686bff; */
+    margin-top: 50px;
 }
 .footerIC img{
-    width: 50px;
+    width: 65px;
+}
+#cc{
+    
+}
+#cc img{
+    width: 55%;
 }
