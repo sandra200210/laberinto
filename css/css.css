@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 body{
     background-color: #000000;
 }
@@ -41,8 +43,18 @@ aside{
     width: 25%;
     margin:2%;
     text-align: center;
+    font-family: 'Orbitron';
 }
 aside img{width: 100%;}
+/* #arriba>h2{
+    font-size: 55px;
+} */
+
+/* ASIDE1 */
+#aside1{
+    background-color: #426630; 
+    margin: 20px;
+}
 
 /* aside2 */
 #aside2{
@@ -56,6 +68,13 @@ aside img{width: 100%;}
     margin: 20px;
     width: 100%;
     height:100%;
+}
+#arriba>figure{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 35%;
+    font-size: large;
 }
 
 
@@ -108,9 +127,10 @@ footer{
 }
 .footerIC{margin: 5px;}
 #refe{
-    padding: 20px;
+    font-size: 20px;
+    padding: 15px;
     border-radius: 50%;
-    border: #30686bff groove;
+    border: #30686bff ;
     background-color: #6b3068;
 }
 #refe a{color: white;}
