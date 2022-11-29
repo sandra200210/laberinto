@@ -3,8 +3,34 @@
     width: 520px;
     height: 520px;
     display: grid;
-    grid-template-rows: repeat(15, 1fr);
-    grid-template-columns: repeat(15,1fr);
+}
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+td{
+    padding: 0;
+}
+#entrada{
+    /* width: 34.67px;
+    height: 33.89px;  */
+    width: auto;
+    height: auto;
+    background-image: url("../IMG/Entrada2.png");
+    background-repeat:round;
+    background-size:100%;   
+    background-size: cover;
+    z-index: 0;
+}
+#entrada1{
+    width: auto;
+    height: auto; 
+    background-image: url("../IMG/Entrada.png");
+    background-repeat:round;
+    background-size:100%;   
+    background-size: cover;
 }
 .paredarriba{
     width: auto;
@@ -18,7 +44,7 @@
     width: auto;
     height: auto; 
     background-image: url("..//IMG/Mapa/ParedMazmorraAbajo.png");
-    background-repeat:round;
+    background-repeat:no-repeat;
     background-size:100%;
     
 }
