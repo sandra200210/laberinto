@@ -10,6 +10,10 @@ img{
 a{
     text-decoration: none;
 }
+.bordes{
+    border: #30686bff ridge 30px;
+    border-radius: 20%;
+}
 
 /* CABECERA */
 header{
@@ -34,7 +38,7 @@ header{
     margin-top: 10px;
     display: flex;
     width:100%;
-    height: 800px;
+    height: 875px;
 }
 
 
@@ -46,14 +50,26 @@ aside{
     font-family: 'Orbitron';
 }
 aside img{width: 100%;}
-/* #arriba>h2{
-    font-size: 55px;
-} */
+aside h2{
+    border-bottom: white solid 3px;
+    margin: 20px;
+    padding: 5px;
+}
 
 /* ASIDE1 */
-#aside1{
-    background-color: #426630; 
+#aside1{background-color: #439195; 
     margin: 20px;
+}
+#aside1 ul{
+    text-align: left;
+    padding-left: 90px;
+}
+section{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* aside2 */
@@ -64,7 +80,7 @@ aside img{width: 100%;}
     justify-content: space-around;
 }
 #aside2>div{
-    background-color: #426630; 
+    background-color: #439195;
     margin: 20px;
     width: 100%;
     height:100%;
@@ -98,14 +114,9 @@ iframe{
 /* FOOTER */
 footer{
     width: auto;
-    padding: 10px;/* 
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* background-color: #6b3068; */
-    /* background-color: #426630; */
+    padding: 10px;
     background-color: #30686bff;
-    /* background-color: white; */
+    border-color: #439195!important;
     margin-top: 50px;
 }
 #cc{
