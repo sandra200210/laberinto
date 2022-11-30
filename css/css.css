@@ -7,9 +7,7 @@ img{
     width:100%;
     height: 100%;
 }
-a{
-    text-decoration: none;
-}
+a{text-decoration: none; color: white;}
 .bordes{
     border: #30686bff ridge 30px;
     border-radius: 20%;
@@ -17,28 +15,24 @@ a{
 
 /* CABECERA */
 header{
-    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Orbitron';
+    border-bottom: #801c7b 5px inset;
+}
+/* hr{
+} */
+#perfil{
+    padding: 50px;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    color: aliceblue;
-    font-family: 'Orbitron';
-    border-bottom: white 7px inset;
+    width: 75px;
 }
-hr{
-    background-color: #56084c;
-}
-#perfil{
-    width: 100px;
-    height: 100px;
-    text-align: center;
-}
-#nombre{
-    background-color: #56084c;
-}
-#logo {
-    width: 8%;
-}
+#perfil>img{width: 100%;}
+#nombre{padding: 50px;}
+#logo {width: 8%;}
 
 /* CONTENEDOR DE PAFINA MENOS CABECERA */
 #asar{
@@ -127,12 +121,8 @@ footer{
     border-color: #439195!important;
     margin-top: 50px;
 }
-#cc{
-    width: 20%;
-}
-#cc img{
-    width: 100%;
-}
+#cc{width: 20%;}
+#cc img{width: 100%;}
 .find{
     display: flex;
     align-items: center;
@@ -150,6 +140,6 @@ footer{
     padding: 15px;
     border-radius: 50%;
     border: #30686bff ;
-    background-color: #6b3068;
+    background-color: #801c7b;
 }
 #refe a{color: white;}
