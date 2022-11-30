@@ -23,6 +23,7 @@ header{
     align-items: center;
     justify-content: space-around;
     color: aliceblue;
+    font-family: 'Orbitron';
 }
 #perfil{
     width: 100px;
@@ -57,7 +58,8 @@ aside h2{
 }
 
 /* ASIDE1 */
-#aside1{background-color: #439195; 
+#aside1{
+    background-color: #439195; 
     margin: 20px;
 }
 #aside1 ul{
