@@ -17,18 +17,24 @@ a{
 
 /* CABECERA */
 header{
-    width:100%;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: aliceblue;
     font-family: 'Orbitron';
+    border-bottom: white 7px inset;
+}
+hr{
+    background-color: #56084c;
 }
 #perfil{
     width: 100px;
     height: 100px;
     text-align: center;
+}
+#nombre{
+    background-color: #56084c;
 }
 #logo {
     width: 8%;
