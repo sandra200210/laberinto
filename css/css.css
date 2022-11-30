@@ -7,7 +7,10 @@ img{
     width:100%;
     height: 100%;
 }
-a{text-decoration: none; color: white;}
+a{
+    text-decoration: none; 
+    color: white;
+}
 .bordes{
     border: #30686bff ridge 30px;
     border-radius: 20%;
