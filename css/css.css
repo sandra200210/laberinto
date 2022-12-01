@@ -34,7 +34,7 @@ header{
     width: 75px;
 }
 #perfil>img{width: 100%;}
-#nombre{padding: 50px;}
+#nombre{padding: 20px; font-size: 50px;}
 #logo {width: 8%;}
 
 /* CONTENEDOR DE PAFINA MENOS CABECERA */
