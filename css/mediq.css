@@ -1,4 +1,14 @@
 /* 1949 para los aside
 con la imagen de cesped
 cambia en 1420 */
-/* 1210 cambiar mapa y fondo aside */
+/* 1210 cambiar mapa y fondo aside
+1377 se jode mapa ponerlo entre aside 1 y aside2 en columna */
+@media only screen and (max-width: 599px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 600px){
+
+}
