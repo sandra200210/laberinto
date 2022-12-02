@@ -5,10 +5,39 @@ cambia en 1420 */
 1377 se jode mapa ponerlo entre aside 1 y aside2 en columna */
 @media only screen and (max-width: 599px) {
     header{
-        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #nombre{
+        text-align: center;
+    }
+    #asar{
         flex-direction: column;
     }
-}
+    aside{
+        width: 100%;
+    }
+    #aside1{margin: 0%;}
+    #aside1 ul{
+        padding-left: 25px;
+    }
+
+    @keyframes titulo {
+        0%{
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+        50%{
+            margin-right: 5%;
+            margin-left: 0%;
+        }
+        100%{
+            margin-right: 0%;
+            margin-left: 5%;
+        }
+    }
+
+}/* 
 @media only screen and (min-width: 600px){
 
-}
+} */
