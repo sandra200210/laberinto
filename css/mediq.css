@@ -37,7 +37,24 @@ cambia en 1420 */
         }
     }
 
-}/* 
-@media only screen and (min-width: 600px){
-
-} */
+} 
+@media only screen and (min-width: 600px) and (max-width: 1377){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    @keyframes titulo {
+        0%{
+            margin-right: 0%;
+            margin-left: 0%;
+        }
+        50%{
+            margin-right: 5%;
+            margin-left: 0%;
+        }
+        100%{
+            margin-right: 0%;
+            margin-left: 5%;
+        }
+    }
+}
