@@ -9,3 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+#moneda{
+    width: 10px;
+    height: 10px;
+    display:block;
+    margin: auto;
+}
