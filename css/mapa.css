@@ -21,7 +21,7 @@ td{
     background-size: cover;
     opacity: 1;
 }
-td:not(.paredarriba, .paredabajo,.paredlateraldech,.paredlateralizq,.entrada,.entrada1){
+td:not(.paredarriba, .paredabajo,.paredlateraldech,.paredlateralizq,.entrada,.entrada1,.salida){
     opacity: 0;
 }
 
@@ -31,7 +31,10 @@ td:not(.paredarriba, .paredabajo,.paredlateraldech,.paredlateralizq,.entrada,.en
     background-image: url("../IMG/Entrada2.png");
 }
 .entrada1{ 
-    background-image: url("../IMG/Entrada.png")
+    background-image: url("../IMG/Entrada.png");
+}
+.salida{
+    background-image: url("../IMG/Mapa/salida.png");
 }
 .paredarriba{
     background-image: url("../IMG/Mapa/ParedMazmorra.png");
