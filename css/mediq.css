@@ -4,22 +4,49 @@ cambia en 1420 */
 /* 1210 cambiar mapa y fondo aside
 1377 se jode mapa ponerlo entre aside 1 y aside2 en columna */
 @media only screen and (max-width: 599px) {
+    
     header{
         flex-direction: column;
         align-items: center;
     }
     #nombre{
         text-align: center;
+        font-size: 40px;
+        margin: 10px;
+        margin-bottom: 0;
     }
+    #perfil{
+        width: 30%;
+        padding-top: 0;
+    }
+    /*para poner el logo con el perfil en la misma linea pense en poner el header en grid en vez de flex */
+    
+    #logo {width: 30%; height: 30%;}
+
     #asar{
         flex-direction: column;
+        align-items: center;
+    /* para que el footer se vea*/
+        height: 100%;
     }
+    /*los bordes tambien cuentan*/
     aside{
-        width: 100%;
+        width: 90%;
     }
-    #aside1{margin: 0%;}
-    #aside1 ul{
-        padding-left: 25px;
+    #aside2>div{
+        margin-right: 0; 
+        width: 80%; 
+    }
+    article{width: 100%; height: 520px;}
+    /*mapa*/
+    #contenedor{
+        width: 420px;
+        height: 420px;
+    }
+    footer{
+        width: 80%; 
+        display: flex;
+        flex-direction: column;
     }
 
     @keyframes titulo {
@@ -28,12 +55,12 @@ cambia en 1420 */
             margin-left: 0%;
         }
         50%{
-            margin-right: 5%;
+            margin-right: 10%;
             margin-left: 0%;
         }
         100%{
             margin-right: 0%;
-            margin-left: 5%;
+            margin-left: 10%;
         }
     }
 
