@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="../css/animacion.css">
     <link rel="stylesheet" href="../css/mediq.css">
+    <link rel="stylesheet" href="../css/login.css">
     <script src="../java/index.js"></script>
+    <script src="../java/login.js"></script>
 
     <title>Document</title>
 </head>
@@ -17,16 +19,17 @@
         <div id="titu"><h1 id="nombre">LABERINTO LEVIOSA</h1></div>
         <div id="perfil"><img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg" alt="perfil"><span>nombre o usuario</span></div>
     </header>
-    <div id="asar">
-        <div id="login">
+    <div id="asar"><div id="hi"> </div>
+        <div id="login" class="bordes" style="display: none;">
             <form>
                 <center>
-                <label for="nombre">Introduce tu nombre</label><br>
-                <input type="text" name="nombre" id="nom"><br>
-                <label for="apodo">Escribe el apodo que quieras (5letras)</label><br>
-                <input type="text" name="apodo" id="apo"><br>
+                    <label for="nombre">Introduce tu nombre</label><br><br>
+                    <input type="text" name="nombre" id="nom" required><br><br>
+                    <label for="apodo">Escribe el apodo que quieras (5letras)</label><br><br>
+                    <input type="text" name="apodo" id="apo" required><br><br>
+                    
+                    <button id="empieza" class="bordes">JUGAR</button>
                 </center>
-                <button>JUGAR</button>
             </form>
         </div>
         <aside id="aside1" class="bordes">
