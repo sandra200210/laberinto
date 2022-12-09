@@ -148,6 +148,7 @@ article > #final{
     background-repeat: no-repeat;
     background-image: url("../IMG/fin.png");
     background-position: bottom;
+    position: relative;
 }
 #final > img{
     width: 100%;
@@ -155,7 +156,7 @@ article > #final{
     height: 100%;
     max-height: 80px;
     position: absolute;
-    bottom: -5%;
+    bottom: 100px;
     left: 55%;
 }
 /* FOOTER */
