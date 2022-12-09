@@ -26,8 +26,8 @@ function mover(e){
                 window.parent.document.getElementById("frame").src="Mapa2 copy.html";
             }
             if(clases[i] == 'salida'){
-                window.parent.document.getElementById("frame").remove();
-                window.parent.document.getElementsByTagName("article")[0].style.backgroundImage="url('../IMG/Entrada.png')";
+                window.parent.document.getElementById("frame").style.display="none";
+                window.parent.document.getElementById("final").style.display="block";
                 //Quitar el iframe y poner una imagen con el gif dando vueltas;
             }
         }
