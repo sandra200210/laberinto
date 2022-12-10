@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../css/login.css">
     <script src="../java/index.js"></script>
     <script src="../java/login.js"></script>
-
     <title>Document</title>
 </head>
 <body>
@@ -19,16 +18,17 @@
         <div id="titu"><h1 id="nombre">LABERINTO LEVIOSA</h1></div>
         <div id="perfil"><img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/591.jpg" alt="perfil"><span>nombre o usuario</span></div>
     </header>
-    <div id="asar"><div id="hi"> </div>
-        <div id="login" class="bordes" style="display: none;">
+    <div id="asar">
+        <div id="hi"> </div>
+        <div id="login" class="bordes">
             <form>
                 <center>
                     <label for="nombre">Introduce tu nombre</label><br><br>
                     <input type="text" name="nombre" id="nom" required><br><br>
                     <label for="apodo">Escribe el apodo que quieras (5letras)</label><br><br>
-                    <input type="text" name="apodo" id="apo" required><br><br>
+                    <input type="text" name="apodo" id="apo" required maxlength="5"><br><br>
                     
-                    <button id="empieza" class="bordes">JUGAR</button>
+                    <button id="empieza" class="bordes" onclick="empezar()">JUGAR</button>
                 </center>
             </form>
         </div>

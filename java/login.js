@@ -1,13 +1,13 @@
-
+let padre=document.getElementById("login");
+let fondo=document.getElementById("hi");
+let empieza=document.getElementById("empieza");/* 
 window.addEventListener("load",iniciar);
 function iniciar() {
-    let nombre=document.getElementById("nom").innerHTML;
-    let apodo=document.getElementById("apo").innerHTML;
-    let empieza=document.getElementById("empieza");
-    let padre=document.getElementById("login");
-    padre.style.display="block";
-    empieza.addEventListener("click", ()=>{
-        
-        padre.style.display="none";
-    })
+} */
+function empezar() {
+    nom=document.getElementById("nom").value;
+    apo=document.getElementById("apo").value;
+    localStorage.setItem(nom,apo);
+    document.getElementById("login").style.display="none";
+    document.getElementById("hi").style.display="none";
 }
