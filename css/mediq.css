@@ -3,25 +3,44 @@ con la imagen de cesped
 cambia en 1420 */
 /* 1210 cambiar mapa y fondo aside
 1377 se jode mapa ponerlo entre aside 1 y aside2 en columna */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 1295px) {
     
     header{
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column;
+        align-items: center; */
+        display: grid;
+        grid-template-columns:50% 50%;
     }
     #nombre{
         text-align: center;
-        font-size: 40px;
-        margin: 10px;
-        margin-bottom: 0;
+        font-size: 30px; 
     }
     #perfil{
-        width: 30%;
-        padding-top: 0;
+        width:50%;
+        height:75%;
+        grid-column-start: 2;
+        align-self: center;
+        justify-self: center;
     }
-    /*para poner el logo con el perfil en la misma linea pense en poner el header en grid en vez de flex */
-    
-    #logo {width: 30%; height: 30%;}
+    #titu{
+        width: 80%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        align-self: center;
+        justify-self: center;
+    }
+    #imag {
+        width:50%;
+        height:75%;
+        grid-column-start: 1;
+        align-self: center;
+        justify-self: center;
+    }
+    #imag img{
+        width: 100%;
+    }
 
     #asar{
         flex-direction: column;
@@ -33,9 +52,12 @@ cambia en 1420 */
     aside{
         width: 90%;
     }
+    #aside2{
+        flex-direction: row;
+    }
     #aside2>div{
         margin-right: 0; 
-        width: 80%; 
+        width: 50%; 
     }
     article{width: 100%; height: 520px;}
     /*mapa*/
@@ -50,39 +72,31 @@ cambia en 1420 */
         flex-direction: column;
     }
 
+
+
+
     @keyframes titulo {
         0%{
-            margin-right: 0%;
-            margin-left: 0%;
+            margin-right: -10%;
+            margin-left: 10%;
         }
         50%{
             margin-right: 10%;
-            margin-left: 0%;
+            margin-left: -10%;
         }
         100%{
-            margin-right: 0%;
+            margin-right: -10%;
             margin-left: 10%;
         }
     }
 
 } 
-@media only screen and (min-width: 600px) and (max-width: 1377){
-    header{
+
+@media only screen and (max-width: 599px) {
+    #aside2{
         flex-direction: column;
-        align-items: center;
     }
-    @keyframes titulo {
-        0%{
-            margin-right: 0%;
-            margin-left: 0%;
-        }
-        50%{
-            margin-right: 5%;
-            margin-left: 0%;
-        }
-        100%{
-            margin-right: 0%;
-            margin-left: 5%;
-        }
+    #aside2>div{ 
+        width: 90%; 
     }
 }

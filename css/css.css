@@ -16,6 +16,8 @@ a{
     border-radius: 10%;
 }
 
+input{width: 100%;}
+
 /* CABECERA */
 header{
     display: flex;
@@ -39,19 +41,13 @@ header{
 
 #nombre{
     padding: 10px;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 50px;
     margin-right: 25%;
     text-align: center;
 }
 
-#logo {width: 8%; height: 8%;
-    margin-top: 25px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-#logo img{width: 100%;}
+#imag img{width: 100%;}
 
 #imag{
     margin-top: 20px;
@@ -123,6 +119,14 @@ figure img{width: 100%;}
 figure figcaption{
     margin-left: 30px;
     font-size:5vw;/* 80px */
+}
+#lista td,#lista tr,#lista table{
+    border-collapse: collapse;
+    border: #8b3c87 2px solid;
+    padding: 10px;
+}
+#lista table{
+    margin: 10px;
 }
 
 
