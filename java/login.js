@@ -9,5 +9,7 @@ function empezar() {
     localStorage.setItem("apodo",apo);
     document.getElementById("login").style.display="none";
     document.getElementById("hi").style.display="none";
+    /* me apetecia usar */
+    document.getElementById("perfil").children[1].innerHTML=nom;
 }
 
