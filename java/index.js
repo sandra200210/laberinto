@@ -15,11 +15,11 @@ function fin() {
     const rank=localStorage.getItem("RK").split("*");
     tiempo=document.getElementById("tiempo").innerHTML;
     monedita=document.getElementById("marcador").innerHTML;
-    const jugador=[localStorage.getItem("apodo"),monedita,tiempo];
+    const jugador=[monedita,tiempo,localStorage.getItem("apodo")];
     let ranki=jugador.join(";");
     rank.push(ranki);
     for (let i = 0; i < rank.length; i++) {
-        if (rank[i].split(";")[0]=="") {
+        if (rank[i].split(";")[2]=="") {
             rank.splice(i, 1);
         }
     }
@@ -30,12 +30,16 @@ function leerRK(){
     fin();
     const rank=localStorage.getItem("RK").split("*");
     let padre=document.getElementById("tabla");
+    rank.sort();
+    rank.reverse();
     /* debe de limpiarse todo lo que es en la tabla antes de volver a cargar los datos */
     if (padre.children!=0) {
         const elim=padre.children;
         for (let i = 0; i < elim.length; i++) {
+
             padre.removeChild(elim[i]);
         }
+        padre.innerHTML="<tr><th>Moneda</th><th>Tiempo</th><th>Apodo</th></tr>";
     }
     for (let i = 0; i < rank.length; i++) {
         let caja= document.createElement("tr");
