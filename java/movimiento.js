@@ -20,6 +20,7 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 arr.classList.remove('money');
+                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
             }
             if(clases[i] == 'entrada1'){
@@ -52,6 +53,7 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 baj.classList.remove('money');
+                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
             }
             if(clases[i] == 'entrada1'){
@@ -78,6 +80,7 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 iz.classList.remove('money');
+                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
             }
             if(clases[i] == 'entrada1'){
@@ -104,6 +107,7 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 der.classList.remove('money');
+                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
             }
             if(clases[i] == 'entrada1'){
