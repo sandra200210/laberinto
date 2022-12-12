@@ -17,4 +17,5 @@ function empezar() {
     document.getElementById("perfil").children[0].setAttribute("src","../IMG/perfil/"+Math.floor(Math.random() * 3)+".jpg");
     /* document.getElementById("audiofondo").volumen */
     document.getElementById("audiofondo").play();
+    
 }

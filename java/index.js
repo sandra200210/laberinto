@@ -9,6 +9,15 @@ function iniciar() {
     if (localStorage.getItem("RK")==null) {
         localStorage.setItem("RK","");
     }
+    /* CAMBIAR VIDEO */
+    if (window.innerWidth>="1295") {
+        document.querySelector(".videoMvl").style.display="none";
+        document.querySelector(".videoPC").style.display="block";
+    } else {
+        document.querySelector(".videoPC").style.display="none";
+        document.querySelector(".videoMvl").style.display="block";
+        
+    }
 }
 
 function fin() {

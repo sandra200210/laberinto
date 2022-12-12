@@ -39,3 +39,11 @@ input{
     top: 0;
     opacity: 0.9;
 }
+.videoPC video{width: 100%;}
+.videoPC{
+    width: 50%;
+}
+.videoMvl video{width: 100%;}
+.videoMvl{
+    width: 20%;
+}
