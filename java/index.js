@@ -4,30 +4,16 @@ let apodo="";
 let tiempo=0;
 let monedita="";
 
-/* window.addEventListener("load",iniciar); */
 window.addEventListener("load",iniciar);
 function iniciar() {
     if (localStorage.getItem("RK")==null) {
         localStorage.setItem("RK","");
     }
-    leerRK();
-
-    /* document.getElementById("final").addEventListener("load",leerRK); */
-
-    /* if (document.getElementById("final").style.display=="block") {
-        document.querySelectorAll("p")[1].addEventListener("load",leerRK);
-    } */
-    /* si lo escribimos directamente aqui da 2 fallos:
-    - O se queda en nulo y no añade el jugador
-    - o te repite varias veces el jugador que supongo que sera por lo de que se recarga sola la pagina */
 }
-if (document.getElementById("final").style.display=="block") {
-    
-    leerRK();
-} 
 
 function fin() {
     const rank=localStorage.getItem("RK").split("*");
+    tiempo=document.getElementById("tiempo").innerHTML;
     monedita=document.getElementById("marcador").innerHTML;
     const jugador=[localStorage.getItem("apodo"),monedita,tiempo];
     let ranki=jugador.join(";");
@@ -70,4 +56,5 @@ function leerRK(){
 }
 function finpartida() {
     clearInterval(intervalo);
+    leerRK();
 }

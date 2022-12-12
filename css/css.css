@@ -127,10 +127,10 @@ figure figcaption{
 #lista td,#lista tr,#lista table{
     border-collapse: collapse;
     border: #8b3c87 2px solid;
-    padding: 10px;
+    padding: 3px;
 }
 #lista table{
-    margin: 10px;
+    margin: 5px;
 }
 
 
