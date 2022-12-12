@@ -68,3 +68,6 @@ function leerRK(){
     }
 
 }
+function finpartida() {
+    clearInterval(intervalo);
+}

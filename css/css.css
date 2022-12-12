@@ -120,6 +120,10 @@ figure figcaption{
     margin-left: 30px;
     font-size:5vw;/* 80px */
 }
+#tiempo{
+    font-size: 30px;
+    margin-left: 45%;
+}
 #lista td,#lista tr,#lista table{
     border-collapse: collapse;
     border: #8b3c87 2px solid;

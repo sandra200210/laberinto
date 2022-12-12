@@ -28,6 +28,7 @@ function mover(e){
             if(clases[i] == 'salida'){
                 window.parent.document.getElementById("frame").style.display="none";
                 window.parent.document.getElementById("final").style.display="block";
+                window.parent.finpartida();
                 //Quitar el iframe y poner una imagen con el gif dando vueltas;
             }
         }
