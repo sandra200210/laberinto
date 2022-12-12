@@ -20,8 +20,8 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 arr.classList.remove('money');
-                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
+                window.parent.document.getElementById("audio").play();
             }
             if(clases[i] == 'entrada1'){
                 window.parent.document.getElementById("frame").src="Mapa2 copy.html";
@@ -53,8 +53,8 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 baj.classList.remove('money');
-                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
+                window.parent.document.getElementById("audio").play();
             }
             if(clases[i] == 'entrada1'){
                 window.parent.document.getElementById("frame").src="Mapa2 copy.html";
@@ -80,8 +80,8 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 iz.classList.remove('money');
-                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
+                window.parent.document.getElementById("audio").play();
             }
             if(clases[i] == 'entrada1'){
                 window.parent.document.getElementById("frame").src="Mapa2 copy.html";
@@ -107,8 +107,8 @@ function mover(e){
             if(clases[i] == 'money'){
                 moneda++;
                 der.classList.remove('money');
-                document.getElementById("audio").play();
                 window.parent.document.getElementById("marcador").innerHTML=moneda;
+                window.parent.document.getElementById("audio").play();
             }
             if(clases[i] == 'entrada1'){
                 window.parent.document.getElementById("frame").src="Mapa2 copy.html";
